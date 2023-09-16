@@ -1,0 +1,39 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: purple; 
+   
+}
+
+.main-content {
+    margin: 5%;
+    padding: 1%;
+}
+
+h2 {
+    color: skyblue;
+}
+
+h3 {
+    color: rgb(57, 189, 241);
+}
+
+li {
+    margin: 1%;
+    line-height: 100%;
+    border-radius: 20%;
+}
+
+button {
+    margin: 1%;
+    border-radius: 10px;
+    line-height: 2.5;
+    display: inline-flex;
+}
+
+button:hover {
+    background-color: lightblue;
+    border-color: gold;
+}
