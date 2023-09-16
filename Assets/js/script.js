@@ -254,7 +254,7 @@ function createPlayer() {
 }
 
 function addtoArray(){
-    Players.push({...Player});
+    Players.unshift({...Player});
     console.log(Player);
     console.log(Players);
 }
